@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:context=".IsiTrimester1Activity">
+
+            <EditText
+                android:id="@+id/berat_badan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Berat Badan (kg)" />
+
+            <EditText
+                android:id="@+id/tinggi_badan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tinggi Badan (cm)" />
+
+            <EditText
+                android:id="@+id/lila"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="LiLa (cm)" />
+
+            <EditText
+                android:id="@+id/imt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="IMT (kg/m2)" />
+
+            <EditText
+                android:id="@+id/hb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="HB (g/dL)" />
+
+            <Spinner
+                android:id="@+id/gol_darah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <EditText
+                android:id="@+id/tensi_darah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tensi Darah (mmHg)" />
+
+            <EditText
+                android:id="@+id/rot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="ROT" />
+
+            <EditText
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="MAP (mmHg)" />
+
+            <Spinner
+                android:id="@+id/pendeteksi_faktor_risiko"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <Spinner
+                android:id="@+id/jarak_kehamilan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <Spinner
+                android:id="@+id/status_imunisasi_tt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <EditText
+                android:id="@+id/pemberian_imunisasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pemberian Imunisasi" />
+            <Button
+                android:id="@+id/simpan_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Simpan" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

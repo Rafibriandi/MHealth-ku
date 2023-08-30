@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".IsiTrimester1Activity">
+
+    <EditText
+        android:id="@+id/nik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIK" />
+
+    <EditText
+        android:id="@+id/id_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Pasien"
+        android:focusableInTouchMode="false"/>
+
+    <EditText
+        android:id="@+id/nama_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pasien" />
+
+    <EditText
+        android:id="@+id/nama_suami"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Suami" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat" />
+
+    <EditText
+        android:id="@+id/no_telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="No Telepon" />
+
+    <EditText
+        android:id="@+id/umur_pasien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Umur Pasien" />
+
+    <EditText
+        android:id="@+id/hpht"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HPHT" />
+
+    <EditText
+        android:id="@+id/usia_kehamilan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usia Kehamilan" />
+
+    <EditText
+        android:id="@+id/perkiraan_lahir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Perkiraan Lahir" />
+
+    <EditText
+        android:id="@+id/hamil_ke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hamil ke-" />
+
+    <Button
+        android:id="@+id/tambahdata_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tambah Data" />
+
+</LinearLayout>

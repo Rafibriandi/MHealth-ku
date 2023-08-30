@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textview_score" type="id"></item>
+    <item name="button_text1" type="id"></item>
+    <item name="button_text2" type="id"></item>
+    <item name="textview_factor1" type="id"></item>
+    <item name="textview_factor2" type="id"></item>
+    <item name="button_calculate" type="id"></item>
+    <item name="checkbox_factor1" type="id"></item>
+    <item name="checkbox_factor2" type="id"></item>
+    <item name="checkbox_factor3" type="id"></item>
+    <item name="checkbox_factor4" type="id"></item>
+    <item name="checkbox_factor5" type="id"></item>
+    <item name="checkbox_factor6" type="id"></item>
+    <item name="checkbox_factor7" type="id"></item>
+    <item name="checkbox_factor8" type="id"></item>
+    <item name="checkbox_factor9a" type="id"></item>
+    <item name="checkbox_factor9b" type="id"></item>
+    <item name="checkbox_factor9c" type="id"></item>
+    <item name="checkbox_factor10" type="id"></item>
+    <item name="checkbox_factor11" type="id"></item>
+    <item name="checkbox_factor12" type="id"></item>
+    <item name="checkbox_factor13" type="id"></item>
+    <item name="checkbox_factor14" type="id"></item>
+    <item name="checkbox_factor15" type="id"></item>
+    <item name="checkbox_factor16" type="id"></item>
+
+
+</resources>

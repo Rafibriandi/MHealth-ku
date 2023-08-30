@@ -1,0 +1,313 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nilai"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nomor Indek" />
+
+                <TextView
+                    android:id="@+id/trimester"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="trimester"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Berat Badan" />
+
+                <TextView
+                    android:id="@+id/beratBadan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Berat Badan Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tinggi Badan" />
+
+                <TextView
+                    android:id="@+id/tinggiBadan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tinggi Badan Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LiLa" />
+
+                <TextView
+                    android:id="@+id/lila"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LiLa Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IMT" />
+
+                <TextView
+                    android:id="@+id/imt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IMT Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HB" />
+
+                <TextView
+                    android:id="@+id/hb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="HB Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Golongan Darah" />
+
+                <TextView
+                    android:id="@+id/golDarah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Golongan Darah Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tensi Darah" />
+
+                <TextView
+                    android:id="@+id/tensiDarah"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tensi Darah Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ROT" />
+
+                <TextView
+                    android:id="@+id/rot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ROT Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MAP" />
+
+                <TextView
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MAP Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pendeteksi Faktor Risiko" />
+
+                <TextView
+                    android:id="@+id/pendeteksiFaktorRisiko"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pendeteksi Faktor Risiko Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skor Risiko" />
+
+                <TextView
+                    android:id="@+id/skorRisiko"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Skor Risiko Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jarak Kehamilan" />
+
+                <TextView
+                    android:id="@+id/jarakKehamilan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jarak Kehamilan Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status Imunisasi TT" />
+
+                <TextView
+                    android:id="@+id/statusImunisasiTT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status Imunisasi TT Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pemberian Imunisasi" />
+
+                <TextView
+                    android:id="@+id/pemberianImunisasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pemberian Imunisasi Value"
+                    android:layout_marginLeft="8dp" />
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+   >
+    <TextView
+        android:id="@+id/textview_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skor Awal Ibu Hamil: 2"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+           >
+
+            <CheckBox
+                android:id="@+id/checkbox_factor1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Terlalu muda hamil (I ≤ 16 Tahun)"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Terlalu tua hamil (I ≥ 35 Tahun)"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Terlalu lambat hamil lagi (I kawin ≥ 4 Tahun)"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Terlalu lama hamil lagi (≥ 10 Tahun)"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. Terlalu cepat hamil lagi (≤ 2 Tahun)"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. Terlalu banyak anak, 4 atau lebih"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. Terlalu tua umur (≥ 35 Tahun)"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. Terlalu pendek (≥ 145 cm)"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. Pernah gagal kehamilan"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. Pernah melahirkan dengan terikan tang/vakum"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11. Pernah melahirkan dengan uri dirogoh"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12. Pernah melahirkan dengan diberi infus/transfuse"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13. Pernah operasi sesar"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14. Penyakit pada ibu hamil: Kurang Darah"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15. Penyakit pada ibu hamil: Malaria"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16. Penyakit pada ibu hamil: TBC Paru"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17. Penyakit pada ibu hamil: Payah Jantung"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18. Penyakit pada ibu hamil: Kencing Manis (Diabetes)"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19. Penyakit pada ibu hamil: Penyakit Menular Seksual"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20. Bengkak pada muka/tungkai dan tekanan darah tinggi"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="21. Hamil kembar"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22. Hydramnion"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23. Bayi mati dalam kandungan"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="24. Kehamilan lebih bulan"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25. Letak sungsang"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="26. Letak Lintang"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27. Perdarahan dalam kehamilan ini"
+                android:textSize="16sp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_factor28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28. Preeklampsia/kejang-kejang"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/simpan_buttoni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+</LinearLayout>

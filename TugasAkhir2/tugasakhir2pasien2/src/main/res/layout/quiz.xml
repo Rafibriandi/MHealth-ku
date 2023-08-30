@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Rectangle 1 -->
+
+    <!-- drawable/rectangle_1.xml -->
+    <!-- Opsi Pilihan -->
+
+    <TextView
+        android:id="@+id/rectangle_1"
+        android:layout_width="334dp"
+        android:layout_height="283dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/soalquiz" />
+
+
+    <Button
+        android:id="@+id/opsi1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="402dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttonbackground" />
+
+    <Button
+        android:id="@+id/opsi2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="664dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/buttonbackground" />
+
+    <Button
+        android:id="@+id/opsi3"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="577dp"
+        android:background="@drawable/buttonbackground" />
+
+    <Button
+        android:id="@+id/opsi4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="486dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/buttonbackground" />
+
+
+</RelativeLayout>
